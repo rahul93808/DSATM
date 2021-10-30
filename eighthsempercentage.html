@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C30S0Z9PJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C30S0Z9PJ6');
+</script>
+    <meta charset="utf-8">
+    <title>DSATM P8</title>
+
+  </head>
+  <link rel="icon" href="favicon.ico">
+  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      -->
+    <style media="screen">
+
+.body2{
+display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+.cgparesu{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.bottomcpyrights{
+text-align: center;
+
+margin: 0.5rem;
+padding: 0.5rem;
+
+}
+.dropdown-menu:li {
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }.dropdown-menu:li {
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ .boder2lgi{
+   color:white;
+   background-color: #185ACB;
+
+   margin-top: 2rem;
+   padding-bottom:1rem;
+   padding-top: 2rem;
+   margin-bottom: 2rem;
+   display:flex;
+   justify-content:center;
+align-items: center;
+ }
+ #footer{
+
+   background-color:#161b22;
+   color: white;
+   width: 100%;
+   text-align: center;
+   padding: 0.5rem;
+   margin-top: 13rem;
+ }
+ a{
+   color: #A12568;
+ }
+ .float{
+ position:fixed;
+ width:65px;
+ height:65px;
+ bottom:95px;
+ right:45px;
+ background-color:#25d366;
+ color:#FFF;
+ border-radius:50px;
+ text-align:center;
+ font-size:48px;
+ box-shadow: 2px 2px 3px #999;
+ z-index:100;
+ }
+ .row{
+   width:90%;
+   margin:1rem;
+ }
+ #topimg{
+   justify-content: center;
+   display: flex;
+   text-align: center;
+ }
+
+#blueborder{
+  display: flex;
+  text-align: center;
+
+}
+#greet,#heymsg{
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+#sign{
+  color:white;
+}
+
+    </style>
+    <style >
+      @media print{
+        #download,.calculate,#footer,#navbar,#reset,.boder2lgi,#rem,#entm,#calculatebtn,.float{
+          display:none;
+        }
+
+      }
+
+      .fontweight{
+        font-weight: bold;
+        font-size:3rem;
+      }
+      .input-group{
+      margin:1rem 0;
+
+      }
+    </style>
+    <div class="body2">
+      <div class="container" id"topimg">
+        <center>
+  <div class="row">
+    <div class="col"><img src="images/logo.jpeg" alt=""></div>
+    <div id="rem"class="col"><h1>(SGPA,CGPA)-Calculator,Assignments,Results</h1></div>
+
+  </div></center>
+</div>
+      <!-- <img src="dsatm - Google Search_files/925717952s.jpeg" alt="">
+      <h1>(SGPA,CGPA)-Calculator,Assignments,Results</h1> -->
+    </div>
+    <div class="boder2lgi">
+        <h2 id="blueborder">(SGPA,CGPA)-Calculator,Assignments,Notes,Records,<br>Results [B.E-All semesters]</h2>
+    </div>
+    <!--nav-->
+
+
+
+    <nav id="navbar"class="navbar navbar-expand-lg navbar-light bg-light"style="font-size: 1.7rem;">
+  <div class="container-fluid">
+    <a class="navbar-brand"style="font-size: 1.7rem;" href="#">DSATM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"style="width:70px;height:70px;"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="HomePage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://results.vtu.ac.in/">Results</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Syllabus
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://drive.google.com/file/d/1tyd7G_XGtW0qygKumdL9b9ycYELCXVH_/view?usp=sharing">EEE</a></li>
+            <li><a class="dropdown-item" href="https://vtu.ac.in/pdf/2018syll/ec.pdf">ECE</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/file/d/1u7YY6-fPU9SUQJAAma5CZZUola9EwUHg/view?usp=sharing">CS</a></li>
+            <li><a class="dropdown-item" href="https://drive.google.com/file/d/1TtALps1TAFO0Kkz_EpKfm-mIdb9XV-MX/view?usp=sharing">IS</a></li>
+              <li><a class="dropdown-item" href="https://drive.google.com/file/d/1kSxY94B6dMzn2DVagHzBvk1af3qbY-U_/view?usp=sharing">ME</a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1Pmwa0ZyTPpXm_UYVZTJngc7_0ovtPXtm/view?usp=sharing">CV</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Drum Kit Starting Files/index.html">Something else here</a></li>
+          </ul>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Exit New Entry</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- navbar -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="text-center mt-2">
+        <span id="heymsg"><b>NAME -</b> </span>
+        <span id="greet" style="text-transform:capitalize;">
+      </span>
+      </div>
+    </div>
+    <div class="col">
+      <div class="text-center mt-2">
+        <span id="heymsg"><b>Semester -</b> </span>
+        <span id="semester" style="text-transform:capitalize;">
+      </span>
+      </div>
+    </div>
+    <div class="col">
+      <div class="text-center mt-2">
+        <span id="heymsg"><b>USN -</b> </span>
+        <span id="usns" style="text-transform:capitalize;">
+      </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<center><h3 id="entm">Enter Your Marks</h3></center>
+<div class="container mt-2">
+
+
+<form name="frm" >
+  <div class="input-group input-group-lg">
+    <span class="input-group-text" id="inputGroup-sizing-default"style="width:120px;">18 <span Id="sub"></span>81</span>
+<input name="subject1" type="number" class="form-control"  id="subject1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+  </div>
+  <div class="input-group input-group-lg">
+<span class="input-group-text" id="inputGroup-sizing-default"style="width:120px;">18<span Id="sub1"></span>82X</span>
+<input type="number" name="subject2"class="form-control" id="subject2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+</div>
+<div class="input-group input-group-lg">
+<span class="input-group-text" id="inputGroup-sizing-default"style="width:120px;">18<span Id="sub2"></span>83</span>
+<input type="number" name="subject3"class="form-control" id="subject3" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+</div>
+<div class="input-group input-group-lg">
+<span class="input-group-text" id="inputGroup-sizing-default"style="width:120px;">18<span Id="sub3"></span>84</span>
+<input type="number" class="form-control" name="subject4"id="subject4"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+</div>
+<div class="input-group input-group-lg">
+<span class="input-group-text" id="inputGroup-sizing-default"style="width:120px;">18<span Id="sub4"></span>I85</span>
+<input type="number" class="form-control" id="subject5"name="subject5"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+</div>
+
+
+
+</div>
+<center>
+  <button type="button" onclick="return calculate();" id="calculatebtn" value="Calculate"class="btn btn-outline-success text-center">Calculate</button>
+  <!-- <input type="submit" value="Send" onclick="return calculate();" /> -->
+  <button type="reset" id="reset" onclick="resets();" class="btn btn-outline-info">reset</button>
+  </form>
+  <div class="fontweight">
+    <span> <b>Percentage =</b></span>  <span id="percentage"></span><span> %</span>
+  </div>
+<!-- <h1> <b>Percentage =</b></h1><h1 id="percentage">%</h1> -->
+<button type="submit" id="download" onclick="window.print();" name="button" disabled>Download <i class="fas fa-download"></i></button>
+
+</center>
+
+<br><br>
+<<br>
+<div  id="sign"class="container" >
+  <h5>Student sign :</h5>
+  <br>
+  <br>
+  <h5>Principal sign :</h5>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  -->
+      <div class="container-fluid" id="footer">
+        <a href="https://www.facebook.com/rahulsrivatsa.srivatsa/">  <i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/rahul-srivatsa-s-813062217/">  <i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/rahulsrivatsasrivatsa/">  <i class="social-icon fab fa-instagram" ></i></a>
+        <a href="mailto:rahulonmac@gmail.com?subject=feedback">  <i class="social-icon fas fa-envelope"></i></a>
+          <p>© Copyright 2021. All Rights Reserved <br>
+      Created With <span> ❤ </span>  By Rahul Srivatsa (UG EEE) </p>
+
+        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="whatsapp://send?text=Link : https://dsatm-resources.netlify.app" class="float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  </a>
+  </body>
+</html>
+<script>
+
+function calculate(){
+let s1=parseInt(document.getElementById("subject1").value);
+
+let s2=parseInt(document.getElementById("subject2").value);
+let s3=parseInt(document.getElementById("subject3").value);
+let s4=parseInt(document.getElementById("subject4").value);
+let s5=parseInt(document.getElementById("subject5").value);
+
+
+
+//if(document.forms["frm"].subject1.value===""||document.forms["frm"].subject2.value===""||document.forms["frm"].subject3.value===""||document.forms["frm"].subject4.value===""||document.forms["frm"].subject4.value===""||document.forms["frm"].subject5.value===""||document.forms["frm"].subject6.value===""||document.forms["frm"].subject7.value===""){
+  //alert("Please enter the Marks");
+  //return false;
+//}return true;
+
+if(s1<0 || s1>100 ||s2<0 || s2>100||s3<0 || s3>100||s4<0 || s4>100||s5<0 || s5>100){
+  //alert("Marks Should be in the Range of 0-100");
+  swal("Oops!", "Marks Should be in the Range of 0-100 !", "error");
+
+}else{
+
+
+
+document.getElementById("percentage").innerHTML+=parseFloat((s1+s2+s3+s4+s5)/5).toFixed(3);
+
+}
+document.getElementById("download").disabled=false;
+document.getElementById("calculatebtn").disabled=true;
+}
+function resets() {
+  document.getElementById("calculatebtn").disabled=false;
+  document.getElementById("percentage").innerHTML=null;
+}
+
+</script>
+<script type="text/javascript">
+let branch=localStorage.getItem("branch-key");
+document.getElementById("sub").innerHTML=branch;
+document.getElementById("sub1").innerHTML=branch;
+document.getElementById("sub2").innerHTML=branch;
+document.getElementById("sub3").innerHTML=branch;
+document.getElementById("sub4").innerHTML=branch;
+
+
+</script>
+<script type="text/javascript">
+  let name=localStorage.getItem("name-key");
+  let usn=localStorage.getItem("usn-key");
+  let semester=localStorage.getItem("semester-key");
+  document.getElementById("greet").innerHTML=name;
+  document.getElementById("usns").innerHTML=usn;
+  document.getElementById("semester").innerHTML=semester;
+</script>
